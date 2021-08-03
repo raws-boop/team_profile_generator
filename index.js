@@ -211,10 +211,10 @@ function createBaseHTML() {
     <!-- Body -->
     <div style="margin-left: 2rem; margin-right: 2rem" class="row">`;
 
-  fs.writeFile("/dist/teamProfile.html", headerPortion, (err) =>
+  fs.writeFile("dist/teamProfile.html", headerPortion, (err) =>
     err
       ? console.log(err)
-      : console.log("Successfully loaded the first portion")
+      : console.log("Successfully completed the first steps")
   );
 }
 
@@ -279,7 +279,7 @@ function createCardsHTML(team) {
     </div>`;
     }
 
-    fs.appendFile("/dist/teamProfile.html", htmlCards, function (err) {
+    fs.appendFile("dist/teamProfile.html", htmlCards, function (err) {
       if (err) {
         console.log(err);
       }
@@ -300,7 +300,7 @@ function finalHTML() {
   </body>
 </html>`;
 
-  fs.appendFile("/dist/teamProfile.html", finalPortion, (err) =>
+  fs.appendFile("dist/teamProfile.html", finalPortion, (err) =>
     err ? console.log(err) : console.log("Page is now complete")
   );
 }

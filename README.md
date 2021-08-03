@@ -158,8 +158,10 @@ In addition to `Employee`'s properties and methods, `Intern` will also have the 
 You are required to submit the following for review:
 
 * A walkthrough video that demonstrates the functionality of the application and passing tests.
+https://drive.google.com/file/d/17MruzfkHAxebv0_-aXUv-_riiA_yNVL3/view
 
 * A sample HTML file generated using your application. 
+
 [a relative link](/team_profile_generator/dist/teamProfile.html)
 
 https://github.com/raws-boop/team_profile_generator
