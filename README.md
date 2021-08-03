@@ -110,11 +110,6 @@ In addition to `Employee`'s properties and methods, `Intern` will also have the 
 
 * `getRole()`&mdash;overridden to return `'Intern'`
 
-Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
 
 ### Deliverables: 15%
 
@@ -164,9 +159,10 @@ You are required to submit the following for review:
 
 * A walkthrough video that demonstrates the functionality of the application and passing tests.
 
-* A sample HTML file generated using your application.
+* A sample HTML file generated using your application. 
+[a relative link](/team_profile_generator/dist/teamProfile.html)
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+https://github.com/raws-boop/team_profile_generator
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
